@@ -1,0 +1,34 @@
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.csprojAssemblyReference.cache
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\MainWindow.g.cs
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\App.g.cs
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp_MarkupCompile.cache
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp_MarkupCompile.lref
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\bin\Debug\SecureChatApp.exe.config
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\bin\Debug\SecureChatApp.exe
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\bin\Debug\SecureChatApp.pdb
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\bin\Debug\Net.Pkcs11.dll
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\MainWindow.baml
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.g.resources
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.Properties.Resources.resources
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.csproj.GenerateResource.cache
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.csproj.CoreCompileInputs.cache
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.csproj.CopyComplete
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.exe
+C:\Users\stefa\AppData\Local\Temporary Projects\SecureChatApp\obj\Debug\SecureChatApp.pdb
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\bin\Debug\SecureChatApp.exe.config
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\bin\Debug\SecureChatApp.exe
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\bin\Debug\SecureChatApp.pdb
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\bin\Debug\Net.Pkcs11.dll
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.csprojAssemblyReference.cache
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\MainWindow.g.cs
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\App.g.cs
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp_MarkupCompile.cache
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp_MarkupCompile.lref
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\MainWindow.baml
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.g.resources
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.Properties.Resources.resources
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.csproj.GenerateResource.cache
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.csproj.CopyComplete
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.exe
+C:\Users\stefa\source\repos\SecureChatApp\SecureChatApp\obj\Debug\SecureChatApp.pdb
