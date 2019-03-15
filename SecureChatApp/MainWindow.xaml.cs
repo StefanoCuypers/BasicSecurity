@@ -32,14 +32,15 @@ namespace SecureChatApp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            
-            MessageBox.Show(data.GetSurname());
-            MessageBox.Show(data.GetData("date_of_birth"));
+           // MessageBox.Show(data.GetSurname());
+           // MessageBox.Show(data.GetData("date_of_birth"));
             CryptoKeyGenerator keygen=new CryptoKeyGenerator();
             keygen.generateRSAKey();
-            MessageBox.Show(keygen.generateAESKey());
-           
-         
-           
+            keygen.generateAESKey();
+            keygen.Encrypt(encryptionTextBox.Text);
+
+
+
         }
     }
 }

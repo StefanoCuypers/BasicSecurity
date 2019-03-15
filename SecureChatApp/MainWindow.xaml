@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="encryptButton" Content="Encrypt" HorizontalAlignment="Left" Margin="351,101,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Label Content="Data to encrypt" HorizontalAlignment="Left" Margin="68,40,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="encryptionTextBlock" HorizontalAlignment="Left" Margin="68,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="200" Width="253"/>
+        <TextBox x:Name="encryptionTextBox" HorizontalAlignment="Left" Height="237" Margin="68,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278"/>
 
     </Grid>
 </Window>

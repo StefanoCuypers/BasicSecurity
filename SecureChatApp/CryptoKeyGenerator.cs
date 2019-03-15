@@ -78,9 +78,11 @@ namespace SecureChatApp
         }
         //--------------------------------------AES ENCRYPT / DECRYPT-----------------------------------------
 
-        static byte[] Encrypt(string plainText)
+        public void Encrypt(string plainText)
         {
             byte[] encrypted;
+            FileStream fs = null;
+           
             // Create a new AesManaged.    
             using (AesManaged aes = new AesManaged())
             {
@@ -96,15 +98,20 @@ namespace SecureChatApp
                     {
                         // Create StreamWriter and write data to a stream    
                         using (StreamWriter sw = new StreamWriter(cs))
-                            sw.Write(plainText);
+                            fs = new FileStream(Path.Combine(Environment.CurrentDirectory, "File1.txt"), FileMode.Create, FileAccess.Write);
+                       StreamWriter sw1 = new StreamWriter(fs);
                         encrypted = ms.ToArray();
+                        sw1.Write(encrypted);
+                        sw1.Flush();
+                       
+                        
                     }
                 }
             }
             // Return encrypted data    
-            return encrypted;
+        
         }
-        static string Decrypt(byte[] cipherText)
+        public string Decrypt(byte[] cipherText)
         {
             string plaintext = null;
             // Create AesManaged    
