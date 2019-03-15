@@ -33,9 +33,13 @@ namespace SecureChatApp
         {
            
             MessageBox.Show(data.GetSurname());
+            MessageBox.Show(data.GetData("date_of_birth"));
             CryptoKeyGenerator keygen=new CryptoKeyGenerator();
             keygen.generateRSAKey();
             MessageBox.Show(keygen.generateAESKey());
+           
+         
+           
         }
     }
 }
