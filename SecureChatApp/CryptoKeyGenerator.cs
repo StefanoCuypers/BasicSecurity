@@ -18,18 +18,19 @@ namespace SecureChatApp
         {
             AesManaged aesEncryption = new AesManaged();
             aesEncryption.KeySize = 256;
-            aesEncryption.GenerateIV();
+
+
             IV = aesEncryption.IV;
-          //  string ivStr = Convert.ToBase64String(aesEncryption.IV);
-            aesEncryption.GenerateKey();
-          //  string keyStr = Convert.ToBase64String(aesEncryption.Key);
+            //  string ivStr = Convert.ToBase64String(aesEncryption.IV);
+
+            //  string keyStr = Convert.ToBase64String(aesEncryption.Key);
             Key = aesEncryption.Key;
 
         }
 
         public void generateRSAKey()
         {
-     
+
 
             //stream to save the keys
             FileStream fs = null;
@@ -74,7 +75,7 @@ namespace SecureChatApp
                 if (fs != null) fs.Close();
             }
             rsa.Clear();
-           
+
         }
         //--------------------------------------AES ENCRYPT / DECRYPT-----------------------------------------
 
@@ -82,7 +83,7 @@ namespace SecureChatApp
         {
             byte[] encrypted;
             FileStream fs = null;
-           
+
             // Create a new AesManaged.    
             using (AesManaged aes = new AesManaged())
             {
@@ -98,18 +99,20 @@ namespace SecureChatApp
                     {
                         // Create StreamWriter and write data to a stream    
                         using (StreamWriter sw = new StreamWriter(cs))
-                            fs = new FileStream(Path.Combine(Environment.CurrentDirectory, "File1.txt"), FileMode.Create, FileAccess.Write);
-                       StreamWriter sw1 = new StreamWriter(fs);
+                            sw.Write(plainText);
                         encrypted = ms.ToArray();
-                        sw1.Write(encrypted);
+
+                        fs = new FileStream(Path.Combine(Environment.CurrentDirectory, "File1.txt"), FileMode.Create, FileAccess.Write);
+                        StreamWriter sw1 = new StreamWriter(fs);
+                        sw1.Write(Convert.ToBase64String(encrypted));
                         sw1.Flush();
-                       
                         
+
                     }
                 }
             }
             // Return encrypted data    
-        
+
         }
         public string Decrypt(byte[] cipherText)
         {
