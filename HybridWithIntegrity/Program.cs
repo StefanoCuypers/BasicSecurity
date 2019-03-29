@@ -8,7 +8,7 @@ namespace CryptographyInDotNet
     {
         static void Main()
         {                                
-            const string original = "SWM aon blaloljrijoeeru";
+            const string original = "abcdefghijklmnopqrstvwxyz 123456789 !#@&|";
 
             var hybrid = new HybridEncryption();
 

@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.IO;
+using System.Security.Cryptography;
 
 namespace CryptographyInDotNet
 {
@@ -13,7 +14,9 @@ namespace CryptographyInDotNet
             {                
                 rsa.PersistKeyInCsp = false;               
                 _publicKey = rsa.ExportParameters(false);
-                _privateKey = rsa.ExportParameters(true);                
+                _privateKey = rsa.ExportParameters(true);
+               // File.WriteAllText("C: \Users\Thibault\Desktop", rsa.ToXmlString(false));
+               // File.WriteAllText("C: \Users\Thibault\Desktop", rsa.ToXmlString(true));
             }
         }
 
